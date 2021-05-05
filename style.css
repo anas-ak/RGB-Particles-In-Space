@@ -1,0 +1,28 @@
+:root {
+    font-size: 12px;
+    font-family: monospace;
+    --color: #FF0000;
+    --bg: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+html, body {
+    overflow: hidden;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    color: var(--color);
+    background-color: var(--bg);
+}
